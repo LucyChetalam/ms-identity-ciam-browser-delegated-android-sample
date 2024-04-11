@@ -52,11 +52,11 @@ Enable public client flow using the steps in [Enable public client flow](https:/
 
 ### Step 4: Delegated permission to Microsoft Graph
 
-Grant API permissions using the steps in [Delegated permission to Microsoft Graph](https://learn.microsoft.com/en-us/entra/external-id/customers/sample-mobile-app-android-kotlin-sign-in-call-api#delegated-permission-to-microsoft-graph)
+Grant API permissions using the steps in [Delegated permission to Microsoft Graph](https://learn.microsoft.com/en-us/entra/external-id/customers/sample-mobile-app-android-kotlin-sign-in-call-api#delegated-permission-to-microsoft-graph).
 
 ### Step 5: Grant web API permissions to the Android sample app
 
-Grant web API permissions to the Android sample app using the steps in [Grant web API permissions to the Android sample app](https://learn.microsoft.com/en-us/entra/external-id/customers/sample-mobile-app-android-kotlin-sign-in-call-api#grant-web-api-permissions-to-the-android-sample-app)
+Grant web API permissions to the Android sample app using the steps in [Grant web API permissions to the Android sample app](https://learn.microsoft.com/en-us/entra/external-id/customers/sample-mobile-app-android-kotlin-sign-in-call-api#grant-web-api-permissions-to-the-android-sample-app).
 
 ### Step 6: Clone sample Android mobile application
 
@@ -90,7 +90,7 @@ The JSON configuration file has:
 
 - `Enter_the_Application_Id_Here` is replaced with the **Application (client) ID** of the app you registered during project setup.
 - `Enter_the_Redirect_Uri_Here` is replaced with the value of *redirect_uri* in the Microsoft Authentication Library (MSAL) configuration file you downloaded earlier when you added the platform redirect URL.
-- `Enter_the_Tenant_Subdomain_Here` is replaced with the Directory (tenant) subdomain. For example, if your tenant primary domain is `contoso.onmicrosoft.com`, use `contoso`. If you don't know your tenant subdomain, learn how to [read your tenant details](how-to-create-customer-tenant-portal.md#get-the-customer-tenant-details).
+- `Enter_the_Tenant_Subdomain_Here` is replaced with the Directory (tenant) subdomain. For example, if your tenant primary domain is `contoso.onmicrosoft.com`, use `contoso`. If you don't know your tenant subdomain, learn how to [read your tenant details](hhttps://learn.microsoft.com/en-us/entra/external-id/customers/how-to-create-external-tenant-portal#get-the-customer-tenant-details).
 
 You use `app/src/main/res/raw/auth_config_ciam.json` file to set configuration options when you initialize the client app in the Microsoft Authentication Library (MSAL).
 
