@@ -1,4 +1,4 @@
-# Sign in users and call web API in sample Android (Kotlin) mobile app
+# Sign in users and call a protected web API in sample Android (Kotlin) mobile app
 
 * [Overview](#overview)
 * [Contents](#contents)
@@ -25,7 +25,7 @@ This guide demonstrates how to configure a sample Android mobile application to 
 
 - <a href="https://developer.android.com/studio" target="_blank">Android Studio</a>.
 - Microsoft Entra External ID for customers tenant. If you don't already have one, <a href="https://aka.ms/ciam-free-trial?wt.mc_id=ciamcustomertenantfreetrial_linkclick_content_cnl" target="_blank">sign up for a free trial</a>. 
-- An API registration that exposes at least one scope (delegated permissions) and one app role (application permission) such as *ToDoList.Read*. If you haven't already, follow the instructions for [call an API in a sample Android mobile app](sample-native-authentication-android-sample-app-call-web-api.md) to have a functional protected ASP.NET Core web API. Make sure you complete the following steps:
+- An API registration that exposes at least one scope (delegated permissions) and one app role (application permission) such as *ToDoList.Read*. If you haven't already, follow the instructions for [call an API in a sample Android mobile app](https://learn.microsoft.com/en-us/entra/external-id/customers/sample-native-authentication-android-sample-app-call-web-api) to have a functional protected ASP.NET Core web API. Make sure you complete the following steps:
 
     - Register a web API application
     - Configure API scopes
@@ -40,31 +40,31 @@ To enable your application to authenicate users with Microsoft Entra, Microsoft 
 
 ### Step 1: Register an application
 
-Register your app in the Microsoft Entra admin center using the steps in [Register an application](https://review.learn.microsoft.com/en-us/entra/external-id/customers/sample-mobile-app-android-kotlin-sign-in?branch=pr-en-us-2602#register-an-application).
+Register your app in the Microsoft Entra admin center using the steps in [Register an application](https://learn.microsoft.com/en-us/entra/external-id/customers/sample-mobile-app-android-kotlin-sign-in-call-api#register-an-application).
 
 ### Step 2: Add a platform redirect URL
 
-Add platform URL using the steps in [Add a platform redirect URL](https://review.learn.microsoft.com/en-us/entra/external-id/customers/sample-mobile-app-android-kotlin-sign-in?branch=pr-en-us-2602#add-a-platform-redirect-url).
+Add platform URL using the steps in [Add a platform redirect URL](https://learn.microsoft.com/en-us/entra/external-id/customers/sample-mobile-app-android-kotlin-sign-in-call-api#add-a-platform-redirect-url).
 
 ### Step 3: Enable public client flow
 
-Enable public client flow using the steps in [Enable public client flow](https://review.learn.microsoft.com/en-us/entra/external-id/customers/sample-mobile-app-android-kotlin-sign-in?branch=pr-en-us-2602#enable-public-client-flow).
+Enable public client flow using the steps in [Enable public client flow](https://learn.microsoft.com/en-us/entra/external-id/customers/sample-mobile-app-android-kotlin-sign-in-call-api#enable-public-client-flow).
 
-### Step 4: Grant API permissions
+### Step 4: Delegated permission to Microsoft Graph
 
-Grant API permissions using the steps in [Grant API permissions](https://review.learn.microsoft.com/en-us/entra/external-id/customers/sample-mobile-app-android-kotlin-sign-in?branch=pr-en-us-2602#grant-api-permissions)
+Grant API permissions using the steps in [Delegated permission to Microsoft Graph](https://learn.microsoft.com/en-us/entra/external-id/customers/sample-mobile-app-android-kotlin-sign-in-call-api#delegated-permission-to-microsoft-graph)
 
 ### Step 5: Grant web API permissions to the Android sample app
 
-Grant web API permissions to the Android sample app using the steps in [Grant web API permissions to the Android sample app](https://review.learn.microsoft.com/en-us/entra/external-id/customers/sample-mobile-app-android-kotlin-sign-in?branch=pr-en-us-2602#grant-web-api-permissions-to-the-android-sample-app)
+Grant web API permissions to the Android sample app using the steps in [Grant web API permissions to the Android sample app](https://learn.microsoft.com/en-us/entra/external-id/customers/sample-mobile-app-android-kotlin-sign-in-call-api#grant-web-api-permissions-to-the-android-sample-app)
 
 ### Step 6: Clone sample Android mobile application
 
-Clone the sample Android mobile application by following the steps outlined in [Clone sample Android mobile application](https://review.learn.microsoft.com/en-us/entra/external-id/customers/sample-mobile-app-android-kotlin-sign-in?branch=pr-en-us-2602#clone-sample-android-mobile-application).
+Clone the sample Android mobile application by following the steps outlined in [Clone sample Android mobile application](https://learn.microsoft.com/en-us/entra/external-id/customers/sample-mobile-app-android-kotlin-sign-in-call-api#clone-sample-android-mobile-application).
 
 ### Step 7: Run and test sample Android mobile application
 
-Run and test the Android sample mobile application by following the steps in [Run and test sample Android mobile application](https://review.learn.microsoft.com/en-us/entra/external-id/customers/sample-mobile-app-android-kotlin-sign-in?branch=pr-en-us-2602#run-and-test-the-sample-android-mobile-application).
+Run and test the Android sample mobile application by following the steps in [Run and test sample Android mobile application](https://learn.microsoft.com/en-us/entra/external-id/customers/sample-mobile-app-android-kotlin-sign-in-call-api#run-and-test-the-sample-android-mobile-application).
 
 ## Key concepts
 
